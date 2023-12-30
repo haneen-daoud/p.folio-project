@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="assets/css/all.min.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/main.minify.css">
+  
+
+
+</head>
+
+<body>
+
+ <div>
+  
+
+  <!-- strat navbar-->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <div class="theme-dropdown-container">
+        <!-- Theme Dropdown Button -->
+        <button class="theme-dropdown-btn" onclick="toggleDropdown()">Select Theme</button>
+        <!-- Theme Dropdown -->
+        <div id="themeDropdown" class="theme-dropdown">
+          <!-- Theme Options -->
+          <div class="theme-option1 theme-option text-white text-center" onclick="setTheme('#f0f0f0')">Light Gray</div>
+          <div class="theme-option2 theme-option text-white text-center" onclick="setTheme('#333')">Dark Gray</div>
+          <div class="theme-option3 theme-option text-white text-center" onclick="setTheme('#3498db')">Blue</div>
+          <div class="theme-option4 theme-option text-white text-center" onclick="setTheme('#e74c3c')">Red</div>
+          <!-- Add more theme options with different colors -->
+        </div>
+      </div>
+      <a class="navbar-brand" href="#"><img src="assets/img/logo (1).png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item me-4 pe-3">
+            <a class="nav-link px-0 active " aria-current="page" href="#">Home</a>
+          </li>
+
+          <li class="nav-item  me-4 pe-3">
+            <a class="nav-link px-0" href="#service">Service</a>
+          </li>
+
+          <li class="nav-item me-4 pe-3">
+            <a class="nav-link px-0" href="#portfolio">Portfolio</a>
+          </li>
+
+          <li class="nav-item me-4 pe-3">
+            <a class="nav-link px-0" href="#resume">Resume</a>
+          </li>
+
+          <li class="nav-item me-4 pe-3">
+            <a class="nav-link px-0" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <a href="#" class="btton bg-orange text-decoration-none rounded-pill  ps-3 py-1">
+          <span class="text-capitalize text-white  ">Hire Me</span>
+          <i class=" fa-solid fa-paper-plane bg-white rounded-circle text-black p-1 me-1"></i>
+        </a>
+
+      </div>
+    </div>
+  </nav>
+  
+  <!-- start header -->
+  <div class="header vh-100">
+    <div class="container">
+      
+      <div class="header-content d-flex flex-column justify-content-center align-items-end  vh-100">
+        <h2>Hello I’m</h2>
+        <h1>ALEXIS MORGAN</h1>
+        <span class="span-header">Professional UI/UX Designer</span>
+
+        <div class="icons d-flex  pt-4">
+
+          <div class="icon  ms-3">
+            <a class="facebook  text-decoration-none" href="#facebook.com">
+              <i class="fab fa-facebook-f  d-flex align-items-center justify-content-center"></i>
+            </a>
+          </div>
+
+          <div class="icon  ms-3">
+            <a class="dribbble  text-decoration-none" href="#facebook.com">
+              <i class="fab fa-dribbble  d-flex align-items-center justify-content-center"></i>
+            </a>
+          </div>
+          <div class="icon  ms-3">
+            <a class="behance text-decoration-none" href="#">
+              <i class="fab fa-behance  d-flex align-items-center justify-content-center"></i>
+            </a>
+          </div>
+          <div class="icon  ms-3">
+            <a class="linkedin text-decoration-none" href="#">
+              <i class="fab fa-linkedin-in  d-flex align-items-center justify-content-center"></i>
+            </a>
+          </div>
+
+          <div class="icon  ms-3">
+            <a class="google text-decoration-none" href="#google.com">
+              <i class="fab fa-google-plus-g  d-flex align-items-center justify-content-center"></i>
+            </a>
+          </div>
+
+
+
+        </div>
+
+      </div>
+     
+    </div>
+  </div>
+ 
+ 
+  <!--about section-->
+  <div class="about py-5">
+    <div class="container">
+      <div class="row text-white">
+        <div class="col-md-6">
+          <div class="row   p-4 ">
+            <div class="col-md-6  border-bottom border-end text-center px-3 py-5 count">
+              <span class="number">482</span>
+              <p class="title-about">Projects Completed</p>
+            </div>
+            <div class="col-md-6 border-bottom  text-center px-3 py-5 count">
+              <span class="number">934</span>
+              <p class="title-about">Creative Designs</p>
+            </div>
+            <div class="col-md-6  border-end text-center px-3 py-5 count">
+              <span class="number">366</span>
+              <p class="title-about">Happy Clients</p>
+            </div>
+            <div class="col-md-6  text-center px-3 py-5 count">
+              <span class="number">7322</span>
+              <p class="title-about">Happy Clients</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-6 bg-orange px-5 py-3 about-us">
+          <span class="text-uppercase border-bottom title-span py-2">about</span>
+          <h2 class=" h2-about ps-4 pt-2">A few words<br>
+            about us</h2>
+          <p class="para-about py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et
+            dolore magna aliqua. ad minim veniam, quis nostrud exercitation ullamco lsix blind smart out burst.
+            Perfectly on furniture dejection determine my plasere lorem ipsum.
+          </p>
+
+          <a class="buttn text-decoration-none  rounded-pill bg-white  d-inline-block pe-4" href="#">
+            <i class="fa-solid fa-eye  rounded-start-pill text-white px-3 py-3 about-icon "></i>
+            <span class="text-capitalize">my partfolio</span>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--services section-->
+  <div class="services " id="service">
+    <div class="container">
+      <div class=" px-5 pt-5 pb-0 about-us ">
+        <div class="title-ser d-flex justify-content-center">
+          <div>
+            <span class="border-bottom title-border-color title-span  text-darkw pb-2">SERVICE</span>
+            <h2 class=" h2-about  ps-4 pt-2">What i do!</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row py-4">
+        <div class=" service-item col-md-6 col-lg-3 text-center  px-3  py-4">
+          <a href="#"><img src="assets/img/SER-1.png" alt="servvice 1 image"></a>
+          <h3 class="ser-h3">Creativity</h3>
+          <p class="ser-para text-darkw">I have been working on illustration design for 6 years. We will make you a
+            brand that is catchy and leaves
+            a trace.</p>
+        </div>
+        <div class=" service-item col-md-6 col-lg-3 text-center px-3 py-4">
+          <a href="#"><img src="assets/img/SER-2.png" alt="servvice 1 image"></a>
+          <h3 class="ser-h3">Web Design</h3>
+          <p class="ser-para text-darkw">I have been working on illustration design for 6 years. We will make you a
+            brand that is catchy and leaves
+            a trace.</p>
+        </div>
+        <div class=" service-item col-md-6 col-lg-3 text-center px-3 py-4">
+          <a href="#"><img src="assets/img/SER-3.png" alt="servvice 1 image"></a>
+          <h3 class="ser-h3">Photography</h3>
+          <p class="ser-para text-darkw">I have been working on illustration design for 6 years. We will make you a
+            brand that is catchy and leaves
+            a trace.</p>
+        </div>
+        <div class=" service-item col-md-6 col-lg-3 text-center px-3 py-4">
+          <a href="#"><img src="assets/img/SER-4.png" alt="servvice 1 image"></a>
+          <h3 class="ser-h3">Advetising</h3>
+          <p class="ser-para text-darkw">I have been working on illustration design for 6 years. We will make you a
+            brand that is catchy and leaves
+            a trace.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--portfolio section-->
+  <div class="portfolio py-5" id="portfolio">
+    <div class="container">
+
+      <div class="title d-flex justify-content-center">
+        <div>
+          <span class="border-bottom title-border-color title-span  text-darkw pb-2">PORTFOLIO </span>
+          <h2 class=" h2-about  ps-4 pt-2">My Featured Work</h2>
+        </div>
+      </div>
+
+      <ul class="nav nav-tabs justify-content-center mt-5 gap-2 border-bottom-0" id="myTab" role="tablist">
+        <li class="nav-item " role="presentation">
+          <button class="nav-link text-capitalize rounded-pill border px-4 py-2 active" id="home-tab"
+            data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+            aria-selected="true">all</button>
+        </li>
+        <li class="nav-item " role="presentation">
+          <button class="nav-link text-capitalize rounded-pill border px-4 py-2" id="profile-tab" data-bs-toggle="tab"
+            data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
+            aria-selected="false">web design</button>
+        </li>
+        <li class="nav-item " role="presentation">
+          <button class="nav-link text-capitalize rounded-pill border px-4 py-2" id="contact-tab" data-bs-toggle="tab"
+            data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+            aria-selected="false">motion graphic</button>
+        </li>
+        <li class="nav-item " role="presentation">
+          <button class="nav-link text-capitalize rounded-pill border px-4 py-2" id="llustration-tab"
+            data-bs-toggle="tab" data-bs-target="#llustration-tab-pane" type="button" role="tab"
+            aria-controls="llustration-tab-pane" aria-selected="false">llustration</button>
+        </li>
+        <li class="nav-item " role="presentation">
+          <button class="nav-link text-capitalize rounded-pill border px-4 py-2" id="Photography-tab"
+            data-bs-toggle="tab" data-bs-target="#Photography-tab-pane" type="button" role="tab"
+            aria-controls="Photography-tab-pane" aria-selected="false">Photography</button>
+        </li>
+
+      </ul>
+
+      <!--all section-->
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+          tabindex="0">
+          <div class="row">
+
+            <div class="col-md-6 col-lg-4 my-4 rounded-3  ">
+              <div class="project-card position-relative  ">
+
+                <div
+                  class="overlay rounded-3 d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 bottom-0">
+                  <i
+                    class="search-icon fa-solid fa-magnifying-glass-plus   rounded-circle bg-orange px-3 py-3 text-white  "></i>
+                </div>
+
+                <img src="assets/img/portfolio-img/p1.png" class="w-100" alt="roppox image">
+                <div
+                  class="info position-absolute  w-100 d-flex justify-content-between px-3 pt-2 rounded-bottom align-items-center  bg-white">
+                  <div class="project-content">
+                    <h3 class="fs-6">Rappox Template</h3>
+                    <p>Html template design.</p>
+                  </div>
+                  <i class="fa-regular fa-heart text-orange"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 my-4 rounded-3  ">
+              <div class="project-card position-relative  ">
+
+                <div
+                  class="overlay rounded-3 d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 bottom-0">
+                  <i
+                    class="search-icon fa-solid fa-magnifying-glass-plus   rounded-circle bg-orange px-3 py-3 text-white  "></i>
+                </div>
+
+                <img src="assets/img/portfolio-img/p2.png" class="w-100" alt="roppox image">
+                <div
+                  class="info position-absolute  w-100 d-flex justify-content-between px-3 pt-2 rounded-bottom align-items-center  bg-white">
+                  <div class="project-content">
+                    <h3 class="fs-6">Rappox Template</h3>
+                    <p>Html template design.</p>
+                  </div>
+                  <i class="fa-regular fa-heart text-orange"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 my-4 rounded-3  ">
+              <div class="project-card position-relative  ">
+
+                <div
+                  class="overlay rounded-3 d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 bottom-0">
+                  <i
+                    class="search-icon fa-solid fa-magnifying-glass-plus   rounded-circle bg-orange px-3 py-3 text-white  "></i>
+                </div>
+
+                <img src="assets/img/portfolio-img/p3.png" class="w-100" alt="roppox image">
+                <div
+                  class="info position-absolute  w-100 d-flex justify-content-between px-3 pt-2 rounded-bottom align-items-center  bg-white">
+                  <div class="project-content">
+                    <h3 class="fs-6">Rappox Template</h3>
+                    <p>Html template design.</p>
+                  </div>
+                  <i class="fa-regular fa-heart text-orange"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 my-4 rounded-3  ">
+              <div class="project-card position-relative  ">
+
+                <div
+                  class="overlay rounded-3 d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 bottom-0">
+                  <i
+                    class="search-icon fa-solid fa-magnifying-glass-plus   rounded-circle bg-orange px-3 py-3 text-white  "></i>
+                </div>
+
+                <img src="assets/img/portfolio-img/p4.png" class="w-100" alt="roppox image">
+                <div
+                  class="info position-absolute  w-100 d-flex justify-content-between px-3 pt-2 rounded-bottom align-items-center  bg-white">
+                  <div class="project-content">
+                    <h3 class="fs-6">Rappox Template</h3>
+                    <p>Html template design.</p>
+                  </div>
+                  <i class="fa-regular fa-heart text-orange"></i>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-4 my-4 rounded-3  ">
+              <div class="project-card position-relative  ">
+
+                <div
+                  class="overlay rounded-3 d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 bottom-0">
+                  <i
+                    class="search-icon fa-solid fa-magnifying-glass-plus   rounded-circle bg-orange px-3 py-3 text-white  "></i>
+                </div>
+
+                <img src="assets/img/portfolio-img/p5.png" class="w-100" alt="roppox image">
+                <div
+                  class="info position-absolute  w-100 d-flex justify-content-between px-3 pt-2 rounded-bottom align-items-center  bg-white">
+                  <div class="project-content">
+                    <h3 class="fs-6">Rappox Template</h3>
+                    <p>Html template design.</p>
+                  </div>
+                  <i class="fa-regular fa-heart text-orange"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 my-4 rounded-3  ">
+              <div class="project-card position-relative  ">
+
+                <div
+                  class="overlay  rounded-3 d-flex justify-content-center align-items-center position-absolute start-0 end-0 bottom-0 top-0">
+                  <i
+                    class="search-icon fa-solid fa-magnifying-glass-plus  rounded-circle bg-orange px-3 py-3 text-white   "></i>
+                </div>
+
+                <img src="assets/img/portfolio-img/p6.png" class="w-100" alt="roppox image">
+                <div
+                  class="info position-absolute  w-100 d-flex justify-content-between px-3 pt-2 rounded-bottom align-items-center  bg-white">
+                  <div class="project-content">
+                    <h3 class="fs-6">Rappox Template</h3>
+                    <p>Html template design.</p>
+                  </div>
+                  <i class="fa-regular fa-heart text-orange"></i>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--web design-->
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+          <div class="row">
+            <div class="col-md-4 my-4 rounded-3  ">
+              <div class="project-card position-relative  ">
+
+                <div
+                  class="overlay rounded-3 d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 bottom-0">
+                  <i
+                    class="search-icon fa-solid fa-magnifying-glass-plus   rounded-circle bg-orange px-3 py-3 text-white  "></i>
+                </div>
+
+                <img src="assets/img/portfolio-img/p2.png" class="w-100" alt="roppox image">
+                <div
+                  class="info position-absolute  w-100 d-flex justify-content-between px-3 pt-2 rounded-bottom align-items-center  bg-white">
+                  <div class="project-content">
+                    <h3 class="fs-6">Rappox Template</h3>
+                    <p>Html template design.</p>
+                  </div>
+                  <i class="fa-regular fa-heart text-orange"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 my-4 rounded-3  ">
+              <div class="project-card position-relative  ">
+
+                <div
+                  class="overlay rounded-3 d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 bottom-0">
+                  <i
+                    class="search-icon fa-solid fa-magnifying-glass-plus   rounded-circle bg-orange px-3 py-3 text-white  "></i>
+                </div>
+
+                <img src="assets/img/portfolio-img/p5.png" class="w-100" alt="roppox image">
+                <div
+                  class="info position-absolute  w-100 d-flex justify-content-between px-3 pt-2 rounded-bottom align-items-center  bg-white">
+                  <div class="project-content">
+                    <h3 class="fs-6">Rappox Template</h3>
+                    <p>Html template design.</p>
+                  </div>
+                  <i class="fa-regular fa-heart text-orange"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--motion section-->
+        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+          <div class="row">
+            <div class="col-md-4 my-4 rounded-3  ">
+              <div class="project-card position-relative  ">
+
+                <div
+                  class="overlay rounded-3 d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 bottom-0">
+                  <i
+                    class="search-icon fa-solid fa-magnifying-glass-plus   rounded-circle bg-orange px-3 py-3 text-white  "></i>
+                </div>
+
+                <img src="assets/img/portfolio-img/p4.png" class="w-100" alt="roppox image">
+                <div
+                  class="info position-absolute  w-100 d-flex justify-content-between px-3 pt-2 rounded-bottom align-items-center  bg-white">
+                  <div class="project-content">
+                    <h3 class="fs-6">Rappox Template</h3>
+                    <p>Html template design.</p>
+                  </div>
+                  <i class="fa-regular fa-heart text-orange"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 my-4 rounded-3  ">
+              <div class="project-card position-relative  ">
+
+                <div
+                  class="overlay  rounded-3 d-flex justify-content-center align-items-center position-absolute start-0 end-0 bottom-0 top-0">
+                  <i
+                    class="search-icon fa-solid fa-magnifying-glass-plus  rounded-circle bg-orange px-3 py-3 text-white   "></i>
+                </div>
+
+                <img src="assets/img/portfolio-img/p6.png" class="w-100" alt="roppox image">
+                <div
+                  class="info position-absolute  w-100 d-flex justify-content-between px-3 pt-2 rounded-bottom align-items-center  bg-white">
+                  <div class="project-content">
+                    <h3 class="fs-6">Rappox Template</h3>
+                    <p>Html template design.</p>
+                  </div>
+                  <i class="fa-regular fa-heart text-orange"></i>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <!--llustratoin section-->
+        <div class="tab-pane fade" id="llustration-tab-pane" role="tabpanel" aria-labelledby="llustration-tab"
+          tabindex="0">
+          <div class="row">
+            <div class="col-md-4 my-4 rounded-3  ">
+              <div class="project-card position-relative  ">
+
+                <div
+                  class="overlay rounded-3 d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 bottom-0">
+                  <i
+                    class="search-icon fa-solid fa-magnifying-glass-plus   rounded-circle bg-orange px-3 py-3 text-white  "></i>
+                </div>
+
+                <img src="assets/img/portfolio-img/p1.png" class="w-100" alt="roppox image">
+                <div
+                  class="info position-absolute  w-100 d-flex justify-content-between px-3 pt-2 rounded-bottom align-items-center  bg-white">
+                  <div class="project-content">
+                    <h3 class="fs-6">Rappox Template</h3>
+                    <p>Html template design.</p>
+                  </div>
+                  <i class="fa-regular fa-heart text-orange"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-4 rounded-3  ">
+              <div class="project-card position-relative  ">
+
+                <div
+                  class="overlay rounded-3 d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 bottom-0">
+                  <i
+                    class="search-icon fa-solid fa-magnifying-glass-plus   rounded-circle bg-orange px-3 py-3 text-white  "></i>
+                </div>
+
+                <img src="assets/img/portfolio-img/p3.png" class="w-100" alt="roppox image">
+                <div
+                  class="info position-absolute  w-100 d-flex justify-content-between px-3 pt-2 rounded-bottom align-items-center  bg-white">
+                  <div class="project-content">
+                    <h3 class="fs-6">Rappox Template</h3>
+                    <p>Html template design.</p>
+                  </div>
+                  <i class="fa-regular fa-heart text-orange"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-4 rounded-3  ">
+              <div class="project-card position-relative  ">
+
+                <div
+                  class="overlay rounded-3 d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 bottom-0">
+                  <i
+                    class="search-icon fa-solid fa-magnifying-glass-plus   rounded-circle bg-orange px-3 py-3 text-white  "></i>
+                </div>
+
+                <img src="assets/img/portfolio-img/p4.png" class="w-100" alt="roppox image">
+                <div
+                  class="info position-absolute  w-100 d-flex justify-content-between px-3 pt-2 rounded-bottom align-items-center  bg-white">
+                  <div class="project-content">
+                    <h3 class="fs-6">Rappox Template</h3>
+                    <p>Html template design.</p>
+                  </div>
+                  <i class="fa-regular fa-heart text-orange"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 my-4 rounded-3  ">
+              <div class="project-card position-relative  ">
+
+                <div
+                  class="overlay  rounded-3 d-flex justify-content-center align-items-center position-absolute start-0 end-0 bottom-0 top-0">
+                  <i
+                    class="search-icon fa-solid fa-magnifying-glass-plus  rounded-circle bg-orange px-3 py-3 text-white   "></i>
+                </div>
+
+                <img src="assets/img/portfolio-img/p6.png" class="w-100" alt="roppox image">
+                <div
+                  class="info position-absolute  w-100 d-flex justify-content-between px-3 pt-2 rounded-bottom align-items-center  bg-white">
+                  <div class="project-content">
+                    <h3 class="fs-6">Rappox Template</h3>
+                    <p>Html template design.</p>
+                  </div>
+                  <i class="fa-regular fa-heart text-orange"></i>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <!--Photography section-->
+        <div class="tab-pane fade" id="Photography-tab-pane" role="tabpanel" aria-labelledby="Photography-tab"
+          tabindex="0">
+          <div class="row">
+            <div class="col-md-4 my-4 rounded-3  ">
+              <div class="project-card position-relative  ">
+
+                <div
+                  class="overlay rounded-3 d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 bottom-0">
+                  <i
+                    class="search-icon fa-solid fa-magnifying-glass-plus   rounded-circle bg-orange px-3 py-3 text-white  "></i>
+                </div>
+
+                <img src="assets/img/portfolio-img/p1.png" class="w-100" alt="roppox image">
+                <div
+                  class="info position-absolute  w-100 d-flex justify-content-between px-3 pt-2 rounded-bottom align-items-center  bg-white">
+                  <div class="project-content">
+                    <h3 class="fs-6">Rappox Template</h3>
+                    <p>Html template design.</p>
+                  </div>
+                  <i class="fa-regular fa-heart text-orange"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 my-4 rounded-3  ">
+              <div class="project-card position-relative  ">
+
+                <div
+                  class="overlay rounded-3 d-flex justify-content-center align-items-center position-absolute top-0 start-0 end-0 bottom-0">
+                  <i
+                    class="search-icon fa-solid fa-magnifying-glass-plus   rounded-circle bg-orange px-3 py-3 text-white  "></i>
+                </div>
+
+                <img src="assets/img/portfolio-img/p4.png" class="w-100" alt="roppox image">
+                <div
+                  class="info position-absolute  w-100 d-flex justify-content-between px-3 pt-2 rounded-bottom align-items-center  bg-white">
+                  <div class="project-content">
+                    <h3 class="fs-6">Rappox Template</h3>
+                    <p>Html template design.</p>
+                  </div>
+                  <i class="fa-regular fa-heart text-orange"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 my-4 rounded-3  ">
+              <div class="project-card position-relative  ">
+
+                <div
+                  class="overlay  rounded-3 d-flex justify-content-center align-items-center position-absolute start-0 end-0 bottom-0 top-0">
+                  <i
+                    class="search-icon fa-solid fa-magnifying-glass-plus  rounded-circle bg-orange px-3 py-3 text-white   "></i>
+                </div>
+
+                <img src="assets/img/portfolio-img/p6.png" class="w-100" alt="roppox image">
+                <div
+                  class="info position-absolute  w-100 d-flex justify-content-between px-3 pt-2 rounded-bottom align-items-center  bg-white">
+                  <div class="project-content">
+                    <h3 class="fs-6">Rappox Template</h3>
+                    <p>Html template design.</p>
+                  </div>
+                  <i class="fa-regular fa-heart text-orange"></i>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!--resume section-->
+  <div class="resume py-5" id="resume">
+    <div class="container">
+
+      <div class="title-ser d-flex justify-content-center">
+        <div>
+          <span class="border-bottom title-border-color title-span text-uppercase text-darkw pb-2">RESUME</span>
+          <h2 class=" h2-about  ps-4 pt-2">My Short Bio</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6  py-5 pe-5 ">
+
+          <div class="education d-flex justify-content-start align-items-center">
+            <i class="fa-solid fa-graduation-cap rounded-circle  bg-orange text-white"></i>
+            <h4 class="text-capitalize pt-3 ps-3 ">education</h4>
+          </div>
+
+          <div class="item  position-relative d-flex ">
+
+            <div class="item-content ">
+              <h5>ART & PHOTO EDITING,
+                <span>CAMBRIDGE UNIVERSIRTY</span>
+              </h5>
+              <span class="text-orange">September 2009 - June 2012 </span>
+              <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling
+                listening. Thing
+                do taste on we manor.</p>
+            </div>
+          </div>
+
+          <div class="item position-relative d-flex">
+
+            <div class="item-content">
+              <h5>WEB DESIGN TECHNIQUES,
+                <span>ISTA BEN MSIK TRAINING CENTER</span>
+              </h5>
+              <span class="text-orange">September 2007 - June 2009 </span>
+              <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling
+                listening. Thing
+                do taste on we manor.</p>
+            </div>
+          </div>
+
+          <div class="item position-relative d-flex">
+
+            <div class="item-content">
+              <h5>BACCALAUREATE: EXPERIMENTAL SCIENCES,
+                <span>MLY ISMAIL HIGH SCHOOL</span>
+              </h5>
+              <span class="text-orange">September 2003 - June 2006 </span>
+              <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling
+                listening. Thing
+                do taste on we manor.</p>
+            </div>
+          </div>
+
+
+
+        </div>
+
+        <div class="col-lg-6 py-5 pe-5 ">
+
+          <div class="education d-flex justify-content-start align-items-center">
+            <i class="fa-solid fa-graduation-cap rounded-circle  bg-orange text-white"></i>
+            <h4 class="text-capitalize pt-3 ps-3 ">Work Experiences</h4>
+          </div>
+
+          <div class="item  position-relative d-flex ">
+
+            <div class="item-content ">
+              <h5>MID-LEVEL DESIGNER AT ENVATO MARKET </h5>
+              <span class="text-orange">June 2016 - Up to now </span>
+              <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling
+                listening. Thing
+                do taste on we manor.</p>
+            </div>
+          </div>
+
+          <div class="item position-relative d-flex">
+
+            <div class="item-content">
+              <h5>WEB DESIGNER & DEVELOPER AT GOOGLE </h5>
+              <span class="text-orange">February 2015 - May 2016 </span>
+              <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling
+                listening. Thing
+                do taste on we manor.</p>
+            </div>
+          </div>
+
+          <div class="item position-relative d-flex">
+
+            <div class="item-content">
+              <h5>FRONT-END DESIGNER AT PIXEL TOUCH
+              </h5>
+              <span class="text-orange">May 2013 - January 2015 </span>
+              <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling
+                listening. Thing
+                do taste on we manor.</p>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="col-lg-6 py-5 pe-5 ">
+
+          <div class="education d-flex  align-items-center bottom-0">
+
+            <i class="fa-solid fa-gears rounded-circle text-white bg-orange "></i>
+            <h4 class="ps-3 bottom-0">My Special Skill</h4>
+          </div>
+
+          <div class=" item1 position-relative  ">
+            <div class="item-content d-flex pb-2 ">
+
+              <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling
+                listening. Thing do taste on we manor.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+
+
+          <div class="item  position-relative w-100">
+
+            <div class="item-content d-flex  pb-2">
+              <h5>WEB & GRAPHIC DESIGN</h5>
+              <span class="span-part">80%</span>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+              aria-valuemax="100">
+              <div class="progress-bar bg-orange"></div>
+            </div>
+          </div>
+
+          <div class="item position-relative ">
+
+            <div class="item-content d-flex  pb-2">
+              <h5>HTML5 & CSS3</h5>
+              <span class="span-part">80%</span>
+
+            </div>
+            <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+              aria-valuemax="100">
+              <div class="progress-bar bg-orange"></div>
+            </div>
+
+
+
+          </div>
+
+          <div class="item position-relative  ">
+
+            <div class="item-content d-flex  pb-2">
+              <h5 class="progress755">WEB & GRAPHIC DESIGN</h5>
+              <span class="span-part70">70%</span>
+            </div>
+            <div class="progress progress75" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-orange"></div>
+            </div>
+          </div>
+
+          <div class="item position-relative ">
+
+            <div class="item-content d-flex  pb-2">
+              <h5>JAVASCRIPT / JQUERY</h5>
+              <span class="span-part55">55%</span>
+            </div>
+            <div class="progress progress55" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-orange"></div>
+            </div>
+
+
+          </div>
+
+
+
+
+        </div>
+
+        <div class="col-lg-6 py-5 pe-5">
+          <a><img src="assets/img/resume-image/skillimg.png"></a>
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </div>
+  <!--dawnload section-->
+  <div class="dawnload py-5 mt-5">
+    <div class="container py-5">
+      <div class="row  justify-content-center  align-items-center ">
+        <div class="col-md-6 ps-5 text-white resume-head">
+
+          <h2 class="mb-4">Hey! Download My Resume Now!</h2>
+          <a href="#" class="text-decoration-none rounded-pill text-white border px-3 py-2">Download CV</a>
+
+        </div>
+
+        <div class="col-md-6 d-flex brand justify-content-around align-items-center">
+
+          <img src="assets/img/dawnload-imge/brandlogo1.png">
+
+          <img src="assets/img/dawnload-imge/brandlogo2.png">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--clients section-->
+  <div class="clients py-5">
+    <div class="container py-5">
+      <div class="title d-flex justify-content-center">
+        <div>
+          <span class="border-bottom title-border-color title-span  text-darkw pb-2">TESTIMONIALS</span>
+          <h2 class=" h2-about  ps-4 pt-2">Our Happy Clients</h2>
+        </div>
+      </div>
+
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner py-5">
+
+          <div class="carousel-item active">
+            <div class="row pt-5">
+              <div class="col-lg-4 mb-3 mb-lg-0">
+                <div class="client1 text-center px-2">
+                  <img src="assets/img/clients/robert.png" alt="robert image">
+                  <h4 class="pt-3">ROBERT JACKSON</h4>
+                  <p class="pb-2">Western Block, California</p>
+
+                  <div class="para-content d-flex px-3   py-4  rounded-4">
+
+                    <p><i class="fa-solid fa-quote-left"></i>Expenses As Material Breeding Insisted Building To In.
+                      Continual So Distrusts Pronounce By
+                      Unwilling Listening.<br>Thing Do Taste On We Manor.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-3 mb-lg-0">
+                <div class="client1 text-center px-2">
+                  <img src="assets/img/clients/james.png" alt="james image">
+                  <h4 class="pt-3">JAMES ANDERSON </h4>
+                  <p class="pb-2">Western Block, California </p>
+
+                  <div class="para-content d-flex px-3   py-4  rounded-4">
+
+                    <p><i class="fa-solid fa-quote-left"></i>Expenses As Material Breeding Insisted Building To In.
+                      Continual So Distrusts Pronounce By
+                      Unwilling Listening.<br>Thing Do Taste On We Manor.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-3 mb-lg-0">
+                <div class="client1 text-center px-2">
+                  <img src="assets/img/clients/jastin.png" alt="JASTIN HASTING image">
+                  <h4 class="pt-3">JASTIN HASTING </h4>
+                  <p class="pb-2">Western Block, California</p>
+
+                  <div class="para-content d-flex px-3   py-4  rounded-4">
+
+                    <p><i class="fa-solid fa-quote-left"></i>Expenses As Material Breeding Insisted Building To In.
+                      Continual So Distrusts Pronounce By
+                      Unwilling Listening.<br>Thing Do Taste On We Manor.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+            </div>
+
+          </div>
+          <div class="carousel-item">
+            <div class="row pt-5">
+              <div class="col-md-4">
+                <div class="client1 text-center px-2">
+                  <img src="assets/img/clients/robert.png" alt="robert image">
+                  <h4 class="pt-3">ROBERT JACKSON</h4>
+                  <p class="pb-2">Western Block, California</p>
+
+                  <div class="para-content d-flex px-3   py-4  rounded-4">
+
+                    <p><i class="fa-solid fa-quote-left"></i>Expenses As Material Breeding Insisted Building To In.
+                      Continual So Distrusts Pronounce By
+                      Unwilling Listening.<br>Thing Do Taste On We Manor.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="client1 text-center px-2">
+                  <img src="assets/img/clients/james.png" alt="james image">
+                  <h4 class="pt-3">JAMES ANDERSON </h4>
+                  <p class="pb-2">Western Block, California </p>
+
+                  <div class="para-content d-flex px-3   py-4  rounded-4">
+
+                    <p><i class="fa-solid fa-quote-left"></i>Expenses As Material Breeding Insisted Building To In.
+                      Continual So Distrusts Pronounce By
+                      Unwilling Listening.<br>Thing Do Taste On We Manor.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="client1 text-center px-2">
+                  <img src="assets/img/clients/jastin.png" alt="JASTIN HASTING image">
+                  <h4 class="pt-3">JASTIN HASTING </h4>
+                  <p class="pb-2">Western Block, California</p>
+
+                  <div class="para-content d-flex px-3   py-4  rounded-4">
+
+                    <p><i class="fa-solid fa-quote-left"></i>Expenses As Material Breeding Insisted Building To In.
+                      Continual So Distrusts Pronounce By
+                      Unwilling Listening.<br>Thing Do Taste On We Manor.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row pt-5">
+              <div class="col-md-4">
+                <div class="client1 text-center px-2">
+                  <img src="assets/img/clients/robert.png" alt="robert image">
+                  <h4 class="pt-3">ROBERT JACKSON</h4>
+                  <p class="pb-2">Western Block, California</p>
+
+                  <div class="para-content d-flex px-3   py-4  rounded-4">
+
+                    <p><i class="fa-solid fa-quote-left"></i>Expenses As Material Breeding Insisted Building To In.
+                      Continual So Distrusts Pronounce By
+                      Unwilling Listening.<br>Thing Do Taste On We Manor.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="client1 text-center px-2">
+                  <img src="assets/img/clients/james.png" alt="james image">
+                  <h4 class="pt-3">JAMES ANDERSON </h4>
+                  <p class="pb-2">Western Block, California </p>
+
+                  <div class="para-content d-flex px-3   py-4  rounded-4">
+
+                    <p><i class="fa-solid fa-quote-left"></i>Expenses As Material Breeding Insisted Building To In.
+                      Continual So Distrusts Pronounce By
+                      Unwilling Listening.<br>Thing Do Taste On We Manor.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="client1 text-center px-2">
+                  <img src="assets/img/clients/jastin.png" alt="JASTIN HASTING image">
+                  <h4 class="pt-3">JASTIN HASTING </h4>
+                  <p class="pb-2">Western Block, California</p>
+
+                  <div class="para-content d-flex px-3   py-4  rounded-4">
+
+                    <p><i class="fa-solid fa-quote-left"></i>Expenses As Material Breeding Insisted Building To In.
+                      Continual So Distrusts Pronounce By
+                      Unwilling Listening.<br>Thing Do Taste On We Manor.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+            </div>
+          </div>
+
+          
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <!--contact section-->
+  <div class="contact py-5 mt-5 vh-100" id="contact">
+    <div class="container py-5 ">
+      <div class="title d-flex justify-content-center pt-5 text-white">
+        <div>
+          <span class="border-bottom title-span  pb-2">CONTACT </span>
+          <h2 class=" h2-about text-white ps-4 pt-2 ">Get in Touch </h2>
+        </div>
+      </div>
+      <p class=" py-4 text-white w-65 m-auto text-center">My Availability Personal portfolios are used to plan, organize
+        and document education,<br>
+        work samples and skills. document education, work samples and skills</p>
+
+      <form class="w-75 m-auto py-5">
+        <div class="row">
+          <div class="mb-4 col-md-6 ">
+            <input type="text"
+              class="form-control py-2 text-white bg-transparent border-0 border-bottom border-white rounded-0"
+              id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+          </div>
+          <div class="mb-4 col-md-6">
+            <input type="email"
+              class="form-control py-2 text-white bg-transparent border-0 border-bottom border-white rounded-0"
+              id="exampleInputPassword1" placeholder="Email">
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <input type="text"
+            class="form-control py-2 text-white bg-transparent border-0 border-bottom border-white rounded-0"
+            id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Address">
+
+        </div>
+        <div class="mb-4">
+          <textarea class="form-control text-white py-2 bg-transparent border-0 border-bottom border-white rounded-0"
+            placeholder="Message" id="floatingTextarea2" style="height: 100px"></textarea>
+
+        </div>
+        <div class="text-center my-4 contact-button">
+          <button type="submit" class="p-0 border-0 rounded-pill bg-white  d-inline-block pe-4">
+            <i class="far fa-envelope bg-dark rounded-start-pill text-white px-3 py-3 about-icon "></i>
+            <span class="text-capitalize pe-2">my partfolio</span>
+          </button>
+        </div>
+
+      </form>
+
+
+
+    </div>
+  </div>
+  <!--map-section-->
+  <div class="map position-relative">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13507.027231525612!2d34.961676!3d32.18383205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2s!4v1691823806294!5m2!1sar!2s"
+      class="bottom-0"    width="100%" height="650" style="border:0;"  allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <div class="contact-info position-absolute bottom-0 w-100">
+      <div class="container  rounded-top-3 p-4 bg-dark ">
+        <div class="row row-gap-3">
+          <div class="col-lg-4 ">
+        <div class="d-flex column-gap-2  align-items-center">
+            <i class="fas fa-phone  rounded-circle"></i>
+            <div class="info text-white">
+              <h3 >Contact Number</h3>
+              <span>+345-3909655627</span>
+             
+            </div>
+
+          </div>
+          </div>
+          <div class="col-lg-4 ">
+            <div class="d-flex column-gap-2  align-items-center">
+              <i class="far fa-envelope rounded-circle"></i>
+                <div class="info text-white">
+                  <h3 >Email Address</h3>
+                  <span>+2390-875-5664</span>
+                 
+                </div>
+    
+              </div>
+          </div>
+          <div class="col-lg-4 ">
+            <div class="d-flex column-gap-2  align-items-center">
+              <i class="fas fa-map-marker-alt rounded-circle"></i>
+                <div class="info text-white">
+                  <h3 >Location</h3>
+                  <span>Buffalo Street,#205, Northwest-3087</span>
+                 
+                </div>
+    
+              </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  <!--footeer section-->
+  <div class="footer">
+  <div class="container py-5">
+    <div class="row justify-content-center align-items-center row-gap-2">
+      <div class="col-md-4 text-center text-md-start p-0">
+        <p class=" mb-0">&copy;2018 Ecologytheme. All Rights Reserved.
+        </p>
+      </div>
+      <div class="col-md-4 p-0 text-center">
+        <img src="assets/img/logo (1).png">
+      </div>
+      <div class="col-md-4 p-0 text-center text-md-end">
+        <p class=" mb-0 text-capitalize">Made by<span class="text-orange"> Haneen daoud!</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <button id="back-to-top" onclick="scrollToTop()">Back to Top</button>
+   
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  <!--bootstrap js-->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
